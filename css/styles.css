@@ -1,0 +1,248 @@
+
+body {
+    background-color: rgb(237, 237, 245);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(164, 171, 171);
+    color: chartreuse;
+    padding: 20px;
+}
+
+
+/* BARRA DE NAVEGACION */
+
+.barramenu {
+    background-color: rgb(34, 12, 99);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: ghostwhite;
+    font-size: 20px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content:space-evenly; /* Ordena el contenido horizontalmente */
+
+}
+
+.botonmenu{ 
+    
+    background-color: rgb(198, 213, 218);
+    
+    border-style: outset;
+    color: rgb(4, 5, 6);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px 2px 5px 2px;
+    width: 200px;
+    list-style-type: none;
+    font-variant:small-caps
+    
+}
+
+.barramenu  li a {
+color: rgb(34, 12, 99) ;
+text-decoration: none;
+}
+
+.barramenu li a:hover {
+    color: white;
+    border-bottom: 2px white solid;
+}
+
+/* INDEX PAG PRINCIPAL */
+
+.banner {
+    background: url("../Fotostarea1/Ciudad1.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:    rgb(34, 12, 99);
+    
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.banner p {
+    font-weight: bold;
+}
+
+/* SECCION NOMBRE USH Y DATOS USH*/
+
+.nombreush {
+    background-color: rgb(198, 213, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 40px; /* separa los parrafos de la imagen */
+
+   margin-bottom: 20px;
+  
+
+}
+
+.texto {
+    width: 50%;
+}
+
+
+.cartel {
+    width: 50%;
+    height: auto;
+}
+
+.cartel h3 {
+    font-size: 40px;
+}
+
+/* FICHAS*/
+
+.tituloficha {
+   border-style: outset;
+   background-color: rgb(211, 222, 232); 
+}
+
+.ficha {
+    border-style: outset;
+    background-color: rgb(211, 222, 232);
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:  rgb(34, 12, 99);
+    color: white;
+    padding: 20px;
+}
+
+.footer p a{
+    color: white;
+
+}
+
+/* IMAGENES */
+
+.imgfaro {
+    width: 30%;
+    border: 3px  rgb(104, 105, 105) solid;
+
+}
+
+.imgtren {
+width: 20%;
+border: 3px  rgb(104, 105, 105) solid;
+}
+
+.imgtrocones {
+    width: 30%;
+    border: 2px  rgb(26, 57, 33) solid;
+}
+
+.imgcarcel {
+    width: 20%;
+    border: 3px  rgb(104, 105, 105) solid;
+}
+
+.imgcarcel2 {
+    width: 20%;
+    border: 3px  rgb(104, 105, 105) solid;
+}
+
+.imgpetiso {
+    width: 20%;
+    border: 3px  rgb(104, 105, 105) solid;
+}
+
+.imgparque {
+    width: 30%;
+    border: 2px  rgb(26, 57, 33) solid;
+}
+
+.imgpostal {
+    width: 30%;
+    border: 2px  rgb(26, 57, 33) solid;
+}
+
+.imglagunaesm {
+    width: 50%;
+    border: 2px  rgb(2, 19, 82) solid;
+}
+
+.imglagunagem {
+    width: 50%;
+    border: 2px  rgb(2, 19, 82) solid;
+}
+
+.imglagunaenc {
+    width: 30%;
+    border: 2px  rgb(2, 19, 82) solid;
+}
+
+.imgvinci {
+    width: 30%;
+    border: 2px  rgb(2, 19, 82) solid;
+}
+
+.imgvinci2 {
+    width: 30%;
+    border: 2px  rgb(2, 19, 82) solid;
+}
+
+.imglupines {
+    width: 30%;
+}
+
+.imgmata {
+    width: 30%;
+}
+
+.imgboton {
+    width: 20%;
+}
+
+.imgcondor {
+    width: 50%;
+}
+
+.imglobo {
+    width: 50%;
+}
+
+.imgcormoranes {
+    width: 30%;
+}
+
+.imgcastor {
+    width: 30%;
+}
+
+.imgcastor2 {
+    width: 30%;
+}
+
+.imgpajaro {
+    width: 30%;
+}
+
+.imgzorro {
+    width: 30%;
+}
+
+.imgballena {
+    width: 40%;
+}
